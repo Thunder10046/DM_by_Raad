@@ -6,7 +6,7 @@ int main(){
     string s;
     cin>>s;
     int n = s.size();
-
+    // assigning the size of the array
     int i; 
 
     for ( i = n-2; i>=0; i--)
@@ -15,6 +15,7 @@ int main(){
         {
             break;
         }
+        // comparing if the next element is greater than the previous one
         
     }
 
@@ -27,9 +28,10 @@ int main(){
         {
             p=i;
         }
+        // finding the index
         
     }
-    swap(s[k],s[p]);
+    swap(s[k],s[p]); //swaping 
     sort(s.begin()+k+1,s.end());
     cout<<s<<endl;
     
