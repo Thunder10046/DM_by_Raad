@@ -28,7 +28,7 @@ int main(){
         {
             p=i;
         }
-        // finding the index
+        // finding the swapable number and saving it's index
         
     }
     swap(s[k],s[p]); //swaping 
